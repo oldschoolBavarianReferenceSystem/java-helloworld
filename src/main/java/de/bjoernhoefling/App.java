@@ -6,6 +6,11 @@ package de.bjoernhoefling;
  */
 public class App {
 
+  /** Private Constructor. This class must be used statically only.
+   */
+  private App() {
+  }
+
   /** Main method.
   @param args Command line arguments.
   */
