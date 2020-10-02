@@ -15,7 +15,7 @@
   <url>https://github.com/oldschoolBavarianReferenceSystem/java-helloworld</url>
 
   <scm>
-    <developerConnection>git@github.com:oldschoolBavarianReferenceSystem/java-helloworld.git</developerConnection>
+    <developerConnection>scm:git:git@github.com:oldschoolBavarianReferenceSystem/java-helloworld.git</developerConnection>
   </scm>
 
   <properties>
