@@ -1,0 +1,11 @@
+version: 2
+# https://docs.github.com/en/github/administering-a-repository/configuration-options-for-dependency-updates#package-ecosystem
+
+updates:
+  - package-ecosystem: maven
+    directory: "/"
+    schedule:
+      interval: "weekly"
+      day: "tuesday"
+    # 5 is the default, set to 0 to disable dependabot:
+    open-pull-requests-limit: 2
