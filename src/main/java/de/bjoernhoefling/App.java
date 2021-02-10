@@ -6,6 +6,12 @@ package de.bjoernhoefling;
  */
 public final class App {
 
+  /** A ZERO */
+  private static final int ZERO = 0;
+
+  /** A ONE */
+  private static final int ONE = 1;
+
   /** Private Constructor. This class must be used statically only.
    */
   private App() {
@@ -16,5 +22,7 @@ public final class App {
   */
   public static void main(final String[] args) {
     System.out.println("Hello World!");
+    final int not = ONE / ZERO;
+    System.out.println("NOT: " + not);
   }
 }
